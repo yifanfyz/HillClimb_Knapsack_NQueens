@@ -1,0 +1,23 @@
+This lab is based on Java. Wrote by Yifan Zhang.
+
+[Instruction]
+
+******For Knapsack
+Compile example: 
+    javac -cp json-simple-1.1.jar Items.java State.java  hill_climb.java
+    java -cp .:json-simple-1.1.jar hill_climb -verbose -sideways2 -restarts3 knapsack.txt   
+
+1.  Input file-name should be the last input argument.
+2.  It is fine with partial additional arguments "-verbose -sideways[int] -restarts[int]".
+3.  For your convenience, you can add "> anyTestFileName.out" after the argument.
+
+******For Queens
+Compile example:
+    javac -cp json-simple-1.1.jar Items.java State.java  hill_climb.java
+    java -cp .:json-simple-1.1.jar hill_climb -verbose -sideways2 -restarts3 -N 8 
+
+1. No matter how many additional arguments added, "-N [int]" should be the last two arguments. 
+2. For your convenience, you can add "> anyTestFileName.out" after the argument.
+
+
+
